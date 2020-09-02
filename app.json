@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/bbPig/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "单向历",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "tabBar": {
+    "backgroundColor": "#333",
+    "selectedColor": "#fff",
+    "color": "#8c8c8c",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "images/ico1-link.png",
+        "selectedIconPath": "images/ico1-link.png",
+        "text": "日历"
+      },
+      {
+        "pagePath": "pages/bbPig/index",
+        "iconPath": "images/ico2-link.png",
+        "selectedIconPath": "images/ico2-link.png",
+        "text": "bb猪"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/ico3-link.png",
+        "selectedIconPath": "images/ico3-link.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

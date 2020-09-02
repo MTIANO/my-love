@@ -1,0 +1,49 @@
+<!--pages/home/index.wxml-->
+<view class="home_box" bindtouchstart="touchStart" bindtouchend="touchEnd" >
+	<view class="home_header">
+
+		<picker mode="date" value="{{date}}"  bindchange="bindDateChange">
+			<view>{{englishMonth}}.{{date}}.{{year}}</view>
+		</picker>
+		<view class="count_down">{{countDown}}</view>
+
+	</view>
+
+	<view class="home_content">
+		<view class="content_box">
+			<view class="header">
+				<text class="date">{{date}}.{{month + 1 }}</text>
+				<text class="week">{{week}}</text>
+				<text class="lunar_calendar">{{lunarCalendar}}</text>
+			</view>
+			<view class="content">
+				<view class="date">{{date}}</view>
+				<view class="suitable">{{obj.suitable}}</view>
+				<view class="language">{{obj.content}}</view>
+				<view class="bottom">
+					<text>{{obj.author}}</text>
+					<!-- <text class="tag">忠伟是bb猪</text> -->
+				</view>
+			</view>
+		</view>
+
+	</view>
+	<!-- <view class="container">
+		<view class="page-body">
+			<view class="selected-date">{{year}}年{{month}}月{{day}}日{{isDaytime ? "白天" : "夜晚"}}</view>
+			<picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+				<picker-view-column>
+					<view wx:for="{{years}}" wx:key="{{years}}" style="line-height: 50px; text-align: center;">{{item}}年</view>
+				</picker-view-column>
+				<picker-view-column>
+					<view wx:for="{{months}}" wx:key="{{months}}" style="line-height: 50px; text-align: center;">{{item}}月</view>
+				</picker-view-column>
+				<picker-view-column>
+					<view wx:for="{{days}}" wx:key="{{days}}" style="line-height: 50px; text-align: center;">{{item}}日</view>
+				</picker-view-column>
+			</picker-view>
+		</view>
+
+	</view> -->
+
+</view>

@@ -1,0 +1,15 @@
+/* pages/my/index.wxss */
+
+.item_text {
+  padding: 50rpx 50rpx 0 50rpx;
+  font-size: 30rpx;
+
+}
+.zw {
+  width: 400rpx;
+  position: relative;
+  left: 50%;
+  margin-top: 100rpx;
+  margin-left: -200rpx;
+  border-radius: 30%;
+}

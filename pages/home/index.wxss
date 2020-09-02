@@ -1,0 +1,87 @@
+/* pages/home/index.wxss */
+
+.home_box {
+  background: #000;
+  color: #fff;
+  min-height: 100%;
+}
+.home_header {
+  padding: 30rpx 40rpx;
+}
+ .home_content, .content_box {
+  padding: 40rpx;
+}
+
+.home_header {
+  background: #333;
+}
+
+.count_down {
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}
+
+.home_content .content_box {
+  background: #fff;
+  color: #333;
+}
+
+.home_content .header {
+  border-top: 1rpx #000 solid;
+  padding: 20rpx 0;
+}
+
+.header .date {
+  font-weight: 700;
+  font-size: 50rpx;
+}
+
+.header .week {
+  font-size: 20rpx;
+  position: relative;
+  top: -20rpx;
+  left: 10rpx;
+  margin-right: 230rpx;
+}
+
+.header .lunar_calendar {
+  font-size: 20rpx;
+}
+
+.content {
+  border: 4rpx #000 solid;
+  padding: 0 30rpx;
+}
+
+.content .date {
+  padding: 80rpx 0;
+  font-size: 200rpx;
+  text-align: center;
+  font-weight: 700;
+}
+
+.content .suitable {
+  padding-bottom: 50rpx;
+  font-size: 60rpx;
+  text-align: center;
+  font-weight: 500;
+}
+
+.content .language {
+  padding: 10rpx 0 70rpx 0;
+  font-size: 28rpx;
+  border-top: 1rpx #000 solid;
+}
+
+.content .bottom {
+  padding: 20rpx 100rpx 20rpx 0;
+  font-size: 16rpx;
+  border-top: 1rpx #000 solid;
+  position: relative;
+}
+
+.bottom .tag {
+  position: absolute;
+  top: 20rpx;
+  right: 0;
+}

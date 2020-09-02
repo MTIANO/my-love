@@ -1,0 +1,13 @@
+<!--pages/bbPig/index.wxml-->
+<view class="pig_box" >
+  <image src="{{imgs}}" class="backimg"></image>
+ <view class="title">
+   请陈忠伟抽取情人节礼物
+ </view>
+ <input class="input"  placeholder="请输入陈忠伟最常用密码"  value='{{password}}'
+    bindinput="inputChange"/>
+  <view bindtap="showMoudl" class="show">
+   抽取
+  </view>      
+
+</view>

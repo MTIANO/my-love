@@ -1,0 +1,13 @@
+<!--pages/my/index.wxml-->
+<view class="detail_box">
+
+  <view class="item_text">2020年8月18日,我决定写一个小程序</view>
+  <!-- <view>今天是开发的一天写了首页日历,做了倒计时功能,农历,
+  随机文案,星期,已经11点35分了,好困,妈的日历的文案好难啊,
+  不知道能不能爬到他的接口数据,要是能爬到的话岂不是谁都能写一个了,
+  不知道做了安全机制没,再说吧不知道等bb猪看到了会不会开心,睡了,割-----</view> -->
+  <view class="item_text">累了,肝了整整7个小时,简介...........(如果忠伟还喜欢我的话,我就更新下一版)</view>
+  <view class="item_text">还有个bug,哭唧唧</view>
+  <view class="item_text">2020年8月25日,陈忠伟你是第一个用户,这是我们过的第一个情人节</view>
+  <image src="../../images/zw.jpg" class="zw"></image>
+</view>
